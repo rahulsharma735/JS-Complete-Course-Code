@@ -92,3 +92,31 @@ JavaScript's dynamic typing allows for more flexibility but can lead to potentia
 if not handled carefully. Static typing, on the other hand, provides better type safety at the 
 cost of some initial verbosity and strictness.
 */
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive Data Type Stores This Type of memory)
+// Heap (Non-Primitive Data Type uses this)
+console.log("-----------------------------------------------");
+
+let myYoutubeName = "rahulsharma.com"
+let anotherName = myYoutubeName;
+
+anotherName = "chaiaurCode"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+let user  = { //Objects
+    email: "rahulsharmagmail.com",
+    upi: "rahulsharma@ibl"
+}
+
+let user2 = user;
+console.log(user2);
+
+user2.email = "rahulkhandal@gmail.com";
+console.log(user.email);
+console.log(user2.email);
